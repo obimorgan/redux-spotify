@@ -1,0 +1,14 @@
+#dropdown-menu-align-right {
+    border-radius: 50px;
+    width: 150px;
+position: relative;
+}
+.dropdown_img {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background: blanchedalmond;
+    position: absolute;
+    right: 9em;
+    z-index: 1000;
+}
