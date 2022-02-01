@@ -9,7 +9,7 @@ const Topbar = () => {
         <Container>
             <Row className="d-flex justify-content-between mt-3">
                 <Col className="arrows d-flex">
-                    <IconContext.Provider value={{ color: "black", className: "global-class-name", size: "30px" }}>
+                    <IconContext.Provider value={{ color: "white", className: "global-class-name", size: "30px" }}>
                         <div className="pr-3"
                             onClick={() => window.history.back()}
                         >
@@ -31,6 +31,7 @@ const Topbar = () => {
                         id="dropdown-menu-align-right"
                         variant="dark"
                         size="sm"
+
                     >
                         <Dropdown.Item eventKey="1">Action</Dropdown.Item>
                         <Dropdown.Item eventKey="2">Another action</Dropdown.Item>

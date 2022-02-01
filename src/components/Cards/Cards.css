@@ -1,40 +1,46 @@
+/** @format */
+
 .card_rectangle {
-    height: 5rem;
-    border: 1px black solid;
-    border-radius: 5px;
-    background: rgba(97, 97, 97, 0.303);
-    color: white;
+  height: 5.5rem;
+  width: 20rem;
+  border: 1px black solid;
+  border-radius: 5px;
+  background: rgba(97, 97, 97, 0.303);
+  color: white;
 }
-.card_rectangle>img {
-    height: 5rem;
-    width: 5rem;
+.card_rectangle > img {
+  height: 5rem;
+  width: 5rem;
+}
+.card_title {
+  font-size: 1rem;
 }
 .cards {
-    height: 18rem;
-    width: 14rem;
-    border: 1px black solid;
-    border-radius: 5px;
-    background: rgba(97, 97, 97, 0.303);
-    color: white;
+  height: 16rem;
+  width: 11.5rem;
+  border: 1px black solid;
+  border-radius: 5px;
+  background: rgba(97, 97, 97, 0.303);
+  color: white;
 }
 .inner_cards {
-    width: 90%;
-    height: 90%;
-    border-radius: 5px;
-    color: white;
+  width: 88%;
+  height: 85%;
+  border-radius: 5px;
+  color: white;
 }
-.inner_cards>img {
-    height: 80%;
-    width: 100%;
-    padding: 2px;
-    border-radius: 10px;
-    object-fit: cover;
+.inner_cards > img {
+  height: 80%;
+  width: 100%;
+  padding: 2px;
+  border-radius: 10px;
+  object-fit: cover;
 }
-.inner_cards>div{
-    font-size: 1em;
-    font-weight: 700;
+.inner_cards > div {
+  font-size: 1em;
+  font-weight: 700;
 }
-.inner_cards > div + div{
-    font-size: 0.8em;
-    font-weight: 500;
+.inner_cards > div + div {
+  font-size: 0.8em;
+  font-weight: 500;
 }

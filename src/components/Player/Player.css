@@ -1,3 +1,5 @@
+/** @format */
+
 .player {
   position: fixed;
   z-index: 1000;
@@ -14,33 +16,33 @@
 }
 
 .left_section {
-   height: 100%;
-   width:25%
+  height: 100%;
+  width: 25%;
 }
-.left_section>img{
-    height: 4em;
-    width: 4em;
+.left_section > img {
+  height: 4em;
+  width: 4em;
 }
-.left_section>div>div {
-    font-size: 12px;
+.left_section > div > div {
+  font-size: 12px;
 }
-.left_section>div>.artist_name{
-    max-width: 100vw;
-    overflow: hidden;
+.left_section > div > .artist_name {
+  max-width: 100vw;
+  overflow: hidden;
 }
 .center_section {
-   height: 100%;
-   width: 55%
+  height: 100%;
+  width: 55%;
 }
 .right_section {
-   height: 100%;
-   width: 25%
+  height: 100%;
+  width: 25%;
 }
 .progress-bar {
-    width: 55vh;
-    height: 5px;
+  width: 55vh;
+  height: 5px;
 }
 .volume_progress_bar {
-    width: 100px;
-    height: 5px
+  width: 100px;
+  height: 5px;
 }

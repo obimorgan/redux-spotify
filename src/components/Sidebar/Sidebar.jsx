@@ -2,6 +2,8 @@ import React from "react";
 import { useState, useRef } from "react";
 import './sidebar.css'
 import SidebarContent from './SidebarContents'
+
+
 const Sidebar = () => {
     const sidebarRef = useRef(null);
     const [isResizing, setIsResizing] = useState(false);
